@@ -1,0 +1,19 @@
+{
+	"presets": ["react", "airbnb"],
+	"ignore": ["/node_modules/"],
+	"plugins": [
+		"transform-decorators-legacy",
+		"transform-class-properties",
+		"emotion"
+	],
+	"env": {
+		"test": {
+			"plugins": [
+				"transform-es2015-modules-commonjs",
+				"transform-decorators-legacy",
+				"transform-class-properties",
+				"emotion"
+			]
+		}
+	}
+}
